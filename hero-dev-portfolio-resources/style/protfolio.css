@@ -1,0 +1,45 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*shared style*/
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+
+}
+header{
+    background-color:#fff8f3;
+    padding-top: 50px;
+}
+nav{
+width: 71%;
+max-width: 1140px;
+border: 1px solid red;
+margin: 0 auto;
+justify-content: space-between;
+display: flex;
+
+nav, .menu{
+  display: flex;
+  list-style-type:none; 
+  gap:51px ;
+
+}
+
+}
+logo.h2{
+font-size: 45px;
+color:#FD6E0A ;
+font-size: 900px;
+}
+.color-orange{
+  color: #FD6E0A;
+}
+
+nav,.menu, a{
+  font-size: 20px;
+  color: #474747;
+
+}
