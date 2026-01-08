@@ -9,37 +9,107 @@
   font-optical-sizing: auto;
 
 }
-header{
-    background-color:#fff8f3;
-    padding-top: 50px;
-}
-nav{
-width: 71%;
-max-width: 1140px;
-border: 1px solid red;
-margin: 0 auto;
-justify-content: space-between;
-display: flex;
 
-nav, .menu{
-  display: flex;
-  list-style-type:none; 
-  gap:51px ;
-
-}
-
-}
-logo.h2{
-font-size: 45px;
-color:#FD6E0A ;
-font-size: 900px;
+.logo .h2{
+  font-size: 45px;
 }
 .color-orange{
   color: #FD6E0A;
+  font-weight: 900px;
+  
+  
 }
+.btn {
+  background-color: #FD6E0A;
+  border: none;
+  padding: 18px, 35px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+header{
+  background-color:#fff8f3;
+  background: url("../images/developer.png"),url("../images/header_bg.png");
+  background-repeat:no-repeat;
+  background-position: top left,bottom right;
+   padding-top: 50px;
 
-nav,.menu, a{
+
+}
+nav{
+  width: 71%;
+  max-width: 1140px;
+  border: 1px solid red;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items:center ;
+  display: flex;
+}
+nav, .menu{
+  display: flex;
+  list-style-type:none;
+  gap:51px ;
+  align-items: center;
+
+
+}
+nav .menu a{
+  display: flex;
   font-size: 20px;
   color: #474747;
+  text-decoration:none;
+
+}
+
+#banner{
+  border:1px solid red;
+  margin: 47px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+#banner .banner-content h2{
+  font-size: 45px;
+  font-weight: 600px;
+  color: #474747;
+  margin-bottom: 5px;
+
+#banner .banner-content {
+  max-width: 585px;
+
+}
+
+
+}
+#banner .banner-content h1{
+  font-size: 85px;
+  font-weight: bold;
+  color: #181818;
+  margin: 20px;
+
+}
+#banner .banner-content p{
+font-size: 8px;
+color:#757575 ;
+line-height: 30px;
+
+}
+#banner .banner-image img{
+  max-width: 585px;
+  vertical-align: middle;
+  #about{
+    margin-top: 130px;
+  }
+}
+#about .about-container {
+ width: 71%;
+  max-width: 1140;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff8f3;
+   padding: 130px 156px;
 
 }
